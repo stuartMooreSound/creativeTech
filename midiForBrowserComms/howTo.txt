@@ -1,0 +1,1 @@
+Some basic code to help get a quick start using midi to connect custom and not-custom controllers to browser based code, using midi :)

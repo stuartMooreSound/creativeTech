@@ -1,1 +1,12 @@
-Some basic code to help get a quick start using midi to connect custom and not-custom controllers to browser based code, using midi :)
+Some basic code to help get a quick start using midi in browser to connect custom and not-custom controllers for any old reason you can imagine :)
+
+To get started:
+  Plug a usb midi device into your machine,
+  Have the html and js code in the same folder and open up the html in a browser. I use chrome generally. If you
+    use something more exotic then theres the chance you'll need to adapt something. This is just a basic sketch! :)
+  The HTML calls midiInit() in the js code to get things started. Here I've put the call in the onload in the html <body>      tag.
+  Open the browser console and you should see the details listed of connected midi devices (thats happening in                 listInputsAndOutputs() in the js code)
+  You'll need to alter the js code to include the name of your device (js lines 38 and 49) - or invent some smoother
+      method for yourself, if you would rather :)
+  Fire it all up again, and you should see data arriving in the browser console when you 'do stuff' on the physical             device.
+  ...Use the data for whatever crazy thing it is you want to! :)
